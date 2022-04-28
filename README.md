@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="computer" src="https://33.media.tumblr.com/ae199e7c344769eda4b8dbe6b2da2f4a/tumblr_mube4wM6mh1rcl0tpo1_250.gif"><br>
+  <img alt="computer" src="https://i.gifer.com/origin/92/92fee742dc7a3b5ae117ca8ca4bc5c07_w200.gif"><br>
 </div>
     </br>
 <div align="center">
