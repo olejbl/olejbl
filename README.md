@@ -7,4 +7,4 @@
   <b> Ole Jacob Brunstad </b>
 </div>
 
-<img src="svg.svg">
+<img src="svg2.svg">
