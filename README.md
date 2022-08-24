@@ -6,3 +6,5 @@
 <div align="center">
   <b> Ole Jacob Brunstad </b>
 </div>
+
+<img src="svg.svg">
