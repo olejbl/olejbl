@@ -39,7 +39,7 @@
 				.m-right { --translate: 50px; }
 
 			</style>
-              <p>THIS IS SVG, NOT GIF</p>
+
 <svg class="pink-cube" viewBox="0 0 300 230" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
   <g id="cube" class="cube-unit">
@@ -82,7 +82,7 @@
     <use xlink:href="#cube" x="100" y="100"/>
     <use xlink:href="#cube" x="121" y="112"/>
   </svg>
-
+              <p>THIS IS SVG, NOT GIF</p>
 
 
 		</div>
