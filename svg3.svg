@@ -11,7 +11,7 @@
 					background: linear-gradient(-45deg, #fc5c7d, #6a82fb, #05dfd7);
 				}
 				.blue-cube {
-				--mainColor: #009CDE;
+				--mainColor: #f09CDE;
 				--strokeColor: #0079ad;
 				--lightColor: #00affa;
 				--darkColor: #008bc7;
