@@ -14,7 +14,7 @@
 				--mainColor: #f09CDE;
 				--strokeColor: #0079ad;
 				--lightColor: #00affa;
-				--darkColor: #008bc7;
+				--darkColor: #ffff00;
 				}
 				.pink-cube {
 				--mainColor: #de0063;
