@@ -79,7 +79,7 @@
     <use xlink:href="#cube" x="100" y="100"/>
     <use xlink:href="#cube" x="121" y="112"/>
   </svg>
-
+<p>THIS IS SVG, NOT GIF</p>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="blue-cube" viewBox="0 -40 300 200">
     <line opacity=".5" x1="96" x2="110" y1="45" y2="45" fill="none" stroke-width="1" stroke-linecap="round" stroke="var(--lightColor)" stroke-dasharray="2.5" />
     <line opacity=".5" x1="190" x2="205" y1="45" y2="45" fill="none" stroke-width="1" stroke-linecap="round" stroke="var(--lightColor)" stroke-dasharray="2.5" />
