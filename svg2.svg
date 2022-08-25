@@ -27,15 +27,13 @@
 				}
 
 				.m-left, .m-right { 
-				animation: 2s moveX alternate infinite paused; 
+				animation: 2s moveX alternate infinite; 
 				}
 				.m-up, .m-down { 
-				animation: 2s moveY alternate infinite paused; 
+				animation: 2s moveY alternate infinite; 
 				}
 				.m-left { --translate: -50px; }
 				.m-right { --translate: 50px; }
-
-				svg { animation-play-state: running; }
 			</style>
 <svg class="pink-cube" viewBox="0 0 300 230" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
