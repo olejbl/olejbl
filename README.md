@@ -8,3 +8,4 @@
 </div>
 
 <img src="svg2.svg">
+<img src="svg3.svg">
