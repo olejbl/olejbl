@@ -1,4 +1,4 @@
-<svg fill="none" viewBox="0 0 600 1200" width="600" height="1200" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 600 600" width="600" height="600" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
 		<div class="container" xmlns="http://www.w3.org/1999/xhtml">
 			<style>
@@ -64,6 +64,7 @@
     <use xlink:href="#cube" x="142" y="100"/>
     <use xlink:href="#cube" x="121" y="112"/>
     <use xlink:href="#cube" x="79" y="112"/>
+    <p>THIS IS SVG, NOT GIF</p>
     <use xlink:href="#cube" x="163" y="112"/>
     <line opacity=".5" x1="165" x2="185" y1="155" y2="155" fill="none" stroke-width="1" stroke-linecap="round" stroke="var(--lightColor)" stroke-dasharray="2.5" />
     <use class="m-right" xlink:href="#cube" x="142" y="124"/>
@@ -79,44 +80,8 @@
     <use xlink:href="#cube" x="100" y="100"/>
     <use xlink:href="#cube" x="121" y="112"/>
   </svg>
-<p>THIS IS SVG, NOT GIF</p>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="blue-cube" viewBox="0 -40 300 200">
-    <line opacity=".5" x1="96" x2="110" y1="45" y2="45" fill="none" stroke-width="1" stroke-linecap="round" stroke="var(--lightColor)" stroke-dasharray="2.5" />
-    <line opacity=".5" x1="190" x2="205" y1="45" y2="45" fill="none" stroke-width="1" stroke-linecap="round" stroke="var(--lightColor)" stroke-dasharray="2.5" />
-    <use xlink:href="#cube" x="121" y="48"/>
-    <use xlink:href="#cube" x="121" y="24"/>
-    <use xlink:href="#cube" x="121" y="0"/>
-    <use xlink:href="#cube" x="100" y="60"/>
-    <use class="m-left" xlink:href="#cube" x="100" y="36"/>
-    <use class="m-left" xlink:href="#cube" x="100" y="12"/>
-    <use xlink:href="#cube" x="142" y="60"/>
-    <use xlink:href="#cube" x="142" y="36"/>
-    <use xlink:href="#cube" x="142" y="12"/>
-    <g class="m-right">
-      <use xlink:href="#cube" x="163" y="72"/>
-      <use xlink:href="#cube" x="163" y="48"/>
-      <use xlink:href="#cube" x="163" y="24"/>
-    </g>
-    <g class="m-left">
-      <use xlink:href="#cube" x="79" y="72"/>
-      <use xlink:href="#cube" x="79" y="48"/>
-      <use xlink:href="#cube" x="79" y="24"/>
-    </g>
-    <use xlink:href="#cube" x="121" y="72"/>
-    <use xlink:href="#cube" x="121" y="48"/>
-    <use xlink:href="#cube" x="121" y="24"/>
-    <use xlink:href="#cube" x="100" y="84"/>
-    <g class="m-left">
-      <use xlink:href="#cube" x="100" y="60"/>
-      <use xlink:href="#cube" x="100" y="36"/>
-    </g>
-    <use xlink:href="#cube" x="142" y="84"/>
-    <use xlink:href="#cube" x="142" y="60"/>
-    <use xlink:href="#cube" x="142" y="36"/>
-    <use xlink:href="#cube" x="121" y="96"/>
-    <use xlink:href="#cube" x="121" y="72"/>
-    <use xlink:href="#cube" x="121" y="48"/>
-  </svg>
+
+
 
 		</div>
 	</foreignObject>
