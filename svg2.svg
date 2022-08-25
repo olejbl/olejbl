@@ -39,6 +39,7 @@
 				.m-right { --translate: 50px; }
 
 			</style>
+              <p>THIS IS SVG, NOT GIF</p>
 <svg class="pink-cube" viewBox="0 0 300 230" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
   <g id="cube" class="cube-unit">
@@ -46,7 +47,7 @@
     <rect width="21" height="24" fill="var(--darkColor)" stroke="var(--strokeColor)" transform="skewY(-30) translate(21 24.3)"/>
     <rect width="21" height="21" fill="var(--mainColor)" stroke="var(--strokeColor)" transform="scale(1.41,.81) rotate(45) translate(0 -21)"/>
   </g>
-  <p>THIS IS SVG, NOT GIF</p>
+
   </defs>
   <line opacity=".5" x1="80" x2="100" y1="150" y2="150" fill="none" stroke-width="1" stroke-linecap="round" stroke="var(--lightColor)" stroke-dasharray="2.5" />
    <line opacity=".5" x1="186" x2="204" y1="90" y2="90" fill="none" stroke-width="1" stroke-linecap="round" stroke="var(--lightColor)" stroke-dasharray="2.5" />
