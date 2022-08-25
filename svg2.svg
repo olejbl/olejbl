@@ -38,7 +38,7 @@
 				.m-left { --translate: -50px; }
 				.m-right { --translate: 50px; }
 
-                h1 {
+                p {
 					text-transform: uppercase;
 					text-shadow:
 						0 1px 0 #efefef,
@@ -94,7 +94,7 @@
     <use xlink:href="#cube" x="100" y="100"/>
     <use xlink:href="#cube" x="121" y="112"/>
   </svg>
-              <h1>THIS IS SVG, NOT GIF</h1>
+              <p>THIS IS SVG, NOT GIF</p>
 
 
 		</div>
