@@ -3,7 +3,7 @@
 
 		<div>
 			<style>
-				:root {
+				.root {
 					--take5-font-size: .8em;	
 					--take5-vpadding: 9.5vh;	
 					--take5-hpadding: 18%;		
