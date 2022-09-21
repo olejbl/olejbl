@@ -1426,49 +1426,47 @@
 
 				}
 			</style>
-			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 600 600" width="600" height="600">
-				<foreignObject width="100%" height="100%">
-						<p style="text-align: center; font-size: 2em;">
-							<a href="#main"><em>trykk her!</em> </a>
-						</p>
+			<div>
+				<p style="text-align: center; font-size: 2em;">
+					<a href="#main"><em>trykk her!</em> </a>
+				</p>
 
-						<article class="verbose foyer slide" id="main">
-							<header style="background-color: #9be712;">
-								<h2><code>Ole Jacob Brunstad</code></h2>
-							</header>
-							<div style="background-color: #17f1f9; width: 100%; height: 100%;">
-								<code><em>leelo</em></code>
-							</div>
-							<div style="background-color: #c1eb00; width: 100%; height: 100%;">
-								Anything else
-							</div>
-							<aside style="background-color: #c1eb00;">
-								<code>https://github.com/olejbl</code>
-							</aside>
-							<nav class="plate">
+				<article class="verbose foyer slide" id="main">
+					<header style="background-color: #9be712;">
+						<h2><code>Ole Jacob Brunstad</code></h2>
+					</header>
+					<div style="background-color: #17f1f9; width: 100%; height: 100%;">
+						<code><em>leelo</em></code>
+					</div>
+					<div style="background-color: #c1eb00; width: 100%; height: 100%;">
+						Anything else
+					</div>
+					<aside style="background-color: #c1eb00;">
+						<code>https://github.com/olejbl</code>
+					</aside>
+					<nav class="plate">
 
-								<a href="#nowhere" rel="parent">Lukk</a>
-								<a href="#quote" rel="next"><code>"next"</code> test</a>
-							</nav>
-							<footer style="background-color: #660000;">
-								<code>&lt;footer&gt;</code>
-							</footer>
-						</article>
-						<article class="foyer slide" id="quote">
-							<header>
-								<h2>Min readme.md er kulere enn din</h2>
-							</header>
-							<nav>
-								<a href="#nowhere" rel="parent">Lukk</a>
-								<a href="#main" rel="prev">Main</a>
-							</nav>
-							<blockquote>
-								CSS er veldig kult.
-								<footer>Ole Jacob</footer>
-							</blockquote>
-						</article>
-				</foreignObject>
-			</svg>
+						<a href="#nowhere" rel="parent">Lukk</a>
+						<a href="#quote" rel="next"><code>"next"</code> test</a>
+					</nav>
+					<footer style="background-color: #660000;">
+						<code>&lt;footer&gt;</code>
+					</footer>
+				</article>
+				<article class="foyer slide" id="quote">
+					<header>
+						<h2>Min readme.md er kulere enn din</h2>
+					</header>
+					<nav>
+						<a href="#nowhere" rel="parent">Lukk</a>
+						<a href="#main" rel="prev">Main</a>
+					</nav>
+					<blockquote>
+						CSS er veldig kult.
+						<footer>Ole Jacob</footer>
+					</blockquote>
+				</article>
+			</div>
 		</div>
 	</foreignObject>
 </svg>
