@@ -3,7 +3,7 @@
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
-				.root {
+				:root {
 					--take5-font-size: .8em;
 					--take5-vpadding: 9.5vh;
 					--take5-hpadding: 18%;
