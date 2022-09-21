@@ -6,11 +6,9 @@
     </br>
 <div align="center">
   <b> Ole Jacob Brunstad </b>
-  <iframe src="svg4.svg">
 </div>
-
-<img src="svg2.svg">
-<img src="svg3.svg">
 <img src="svg4.svg">
+
+<img src="svg3.svg">
 <img src="https://raw.githubusercontent.com/olejbl/olejbl/main/svg4.svg#main">
 
