@@ -1237,9 +1237,6 @@
 					article.slide:not(.nonadaptive) {
 						font-size: calc(var(--t5fs) * 7 / 8);
 					}
-
-					/*  Remove labels from `<nav>` links when screen height is too low  */
-
 					article.slide:not(.nonadaptive).foyer > nav:first-of-type a[href]:not(.vision):not(:empty)::before,
 					article.slide:not(.nonadaptive) > nav:first-of-type a[href]:not([rel~="parent"]):not([rel~="first"]):not([rel~="index"]):not([rel~="last"]):not([rel~="prev"]):not([rel~="next"]):not([rel~="attachment"]):not([rel~="bookmark"]):not([rel~="author"]):not([rel~="discussion"]):not(.vision):not(:empty)::before,
 					article.slide:not(.nonadaptive) > nav:first-of-type a[href].tab:not(:empty)::before,
