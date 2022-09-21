@@ -16,17 +16,18 @@
       <body xmlns="http://www.w3.org/1999/xhtml">
         <p>Here is a paragraph that requires word wrap</p>
       </body>
+    </switch>
     </foreignObject>
     <!-- Else, process the following alternate SVG.
          Note that there are no testing attributes on the 'text' element.
          If no testing attributes are provided, it is as if there
          were testing attributes and they evaluated to true.-->
     <text font-size="10" font-family="Verdana">
-      <tspan x="10" y="10">Here is a paragraph that</tspan>
+      <tspan x="10" y="10">Here is a paragraph that fail</tspan>
       <tspan x="10" y="20">requires word wrap.</tspan>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+      </math>
     </text>
-    <math xmlns="http://www.w3.org/1998/Math/MathML">
-    </math>
     <svg version="1.1"
       xmlns:svg="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -40,5 +41,5 @@
         </foreignObject>
       </switch>
     </svg>
-  </switch>
+  
 </svg>
