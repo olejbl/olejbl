@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 600 600" width="600" height="600">
 	<foreignObject width="100%" height="100%">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<body>
-		<div class="container" xmlns="http://www.w3.org/1999/xhtml">
+		<div class="root" xmlns="http://www.w3.org/1999/xhtml">
 			<style>
 				.root {
 					--take5-font-size: .8em;	
