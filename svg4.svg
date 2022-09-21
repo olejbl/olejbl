@@ -1714,7 +1714,7 @@
 			<code>&lt;footer&gt;</code>
 		</footer>
 	</article>
-	<article class="foyer slide" id="quote" itemprop="citation" itemscope itemtype="https://schema.org/Text">
+	<article class="foyer slide" id="quote">
 		<header>
 			<h2>Min readme.md er kulere enn din</h2>
 		</header>
