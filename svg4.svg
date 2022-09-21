@@ -1,17 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 600 600" width="600" height="600">
 	<foreignObject width="100%" height="100%">
-		<body>
-		<div class="root" xmlns="http://www.w3.org/1999/xhtml">
+		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
 				.root {
-					--take5-font-size: .8em;	
-					--take5-vpadding: 9.5vh;	
-					--take5-hpadding: 18%;		
-					--take5-vspace: .47vh;	
-					--take5-aspace: .78vmin;	
-					--take5-hspace: .88vw;	
-					--take5-glyphsize: 40px;	
-					--take5-footer-h: 3.3vh;	
+					--take5-font-size: .8em;
+					--take5-vpadding: 9.5vh;
+					--take5-hpadding: 18%;
+					--take5-vspace: .47vh;
+					--take5-aspace: .78vmin;
+					--take5-hspace: .88vw;
+					--take5-glyphsize: 40px;
+					--take5-footer-h: 3.3vh;
 					--take5-margin: 1.88vmin;
 					--take5-nav-y: 3.8vh;
 					--take5-navlink-of: 50%;
@@ -22,76 +21,76 @@
 					--take5-shadows: 0 0 20px #000;
 					--take5-rounds: 8px;
 					--take5-exitsize: 20px;
-					--take5-far-out: -20px;	
+					--take5-far-out: -20px;
 					--take5-apt-bglyphsize: 11vmin;
-					--take5-apt-glyphsize: 7vmin;	
+					--take5-apt-glyphsize: 7vmin;
 				}
 
 				@media only screen {
 
 					article.slide {
-						
-						--t5fs: var(--take5-font-size, .8em);	
 
-						
-						--t5vp: var(--take5-vpadding, 9.5vh);	
+						--t5fs: var(--take5-font-size, .8em);
 
-						
-						--t5hp: var(--take5-hpadding, 33%);	
 
-						
-						--t5vs: var(--take5-vspace, .47vh);	
+						--t5vp: var(--take5-vpadding, 9.5vh);
 
-						
-						--t5as: var(--take5-aspace, .78vmin);	
 
-						
-						--t5hs: var(--take5-hspace, .88vw);	
+						--t5hp: var(--take5-hpadding, 33%);
 
-						
-						--t5gs: var(--take5-glyphsize, 40px);	
 
-						
-						--t5fh: var(--take5-footer-h, 3.3vh);	
+						--t5vs: var(--take5-vspace, .47vh);
 
-						
-						--t5em: var(--take5-margin, 1.88vmin);	
 
-						
-						--t5np: var(--take5-nav-y, 3.8vh);	
+						--t5as: var(--take5-aspace, .78vmin);
 
-						
-						--t5lo: var(--take5-navlink-of, 10%);	
 
-						
-						--t5lho: var(--take5-navlink-hof, 2%);	
+						--t5hs: var(--take5-hspace, .88vw);
 
-						
-						--t5lxw: var(--take5-navlink-xw, 40%);	
 
-						
-						--t5nvs: var(--take5-nav-vsep, 3.8vh);	
+						--t5gs: var(--take5-glyphsize, 40px);
 
-						
-						--t5shm: var(--take5-nav-hsep, 2.37vw);	
 
-						
+						--t5fh: var(--take5-footer-h, 3.3vh);
+
+
+						--t5em: var(--take5-margin, 1.88vmin);
+
+
+						--t5np: var(--take5-nav-y, 3.8vh);
+
+
+						--t5lo: var(--take5-navlink-of, 10%);
+
+
+						--t5lho: var(--take5-navlink-hof, 2%);
+
+
+						--t5lxw: var(--take5-navlink-xw, 40%);
+
+
+						--t5nvs: var(--take5-nav-vsep, 3.8vh);
+
+
+						--t5shm: var(--take5-nav-hsep, 2.37vw);
+
+
 						--t5sh: var(--take5-shadows, 0 0 20px #000);
 
-						
-						--t5br: var(--take5-rounds, 8px);	
 
-						
-						--t5es: var(--take5-exitsize, 50px);	
+						--t5br: var(--take5-rounds, 8px);
 
-						
-						--t5fo: var(--take5-far-out, -80px);	
 
-						
-						--t5abgs: var(--take5-apt-bglyphsize, 11vmin);	
+						--t5es: var(--take5-exitsize, 50px);
 
-						
-						--t5ags: var(--take5-apt-glyphsize, 7vmin);	
+
+						--t5fo: var(--take5-far-out, -80px);
+
+
+						--t5abgs: var(--take5-apt-bglyphsize, 11vmin);
+
+
+						--t5ags: var(--take5-apt-glyphsize, 7vmin);
 
 						position: fixed;
 						top: 0;
@@ -165,7 +164,7 @@
 						content: "hashtag: #" attr(id);
 					}
 
-					article.slide a[href], 
+					article.slide a[href],
 					article.slide a[href]:link,
 					article.slide a[href]:hover,
 					article.slide a[href]:active,
@@ -183,7 +182,7 @@
 					}
 
 
-					
+
 
 					article.slide a[href][data-label]:not(.no-label)::before {
 						content: attr(data-label);
@@ -216,7 +215,7 @@
 
 					}
 
-					article.slide > :not(nav):not(header):not(footer):not(aside) {
+					article.slide> :not(nav):not(header):not(footer):not(aside) {
 						position: absolute;
 						box-sizing: border-box;
 						left: 50%;
@@ -231,45 +230,45 @@
 						z-index: 10012;
 					}
 
-					article.slide:not(:target) > :not(nav):not(header):not(footer):not(aside) {
+					article.slide:not(:target)> :not(nav):not(header):not(footer):not(aside) {
 						transform: translate(-50%, -50%) scale(0.001);
 						animation: .15s ease 0s 1 slideout;
 					}
 
-					article.slide > :not(nav):not(header):not(footer):not(aside) ~ :not(nav):not(header):not(footer):not(aside) {
+					article.slide> :not(nav):not(header):not(footer):not(aside)~ :not(nav):not(header):not(footer):not(aside) {
 						width: auto;
 						height: auto;
 						animation: none;
 						transform: none;
 					}
 
-					article.slide:not(:target) > :not(nav):not(header):not(footer):not(aside) ~ :not(nav):not(header):not(footer):not(aside) {
+					article.slide:not(:target)> :not(nav):not(header):not(footer):not(aside)~ :not(nav):not(header):not(footer):not(aside) {
 						animation: none;
 						transform: none;
 					}
 
 
-					
 
-					article.slide > :not(nav):not(header):not(footer):not(aside):not(section):not(article) {
+
+					article.slide> :not(nav):not(header):not(footer):not(aside):not(section):not(article) {
 						overflow: visible;
 					}
 
-					article.slide > :not(nav):not(header):not(footer):not(aside) ~ :not(nav):not(header):not(footer):not(aside):not(section):not(article) {
+					article.slide> :not(nav):not(header):not(footer):not(aside)~ :not(nav):not(header):not(footer):not(aside):not(section):not(article) {
 						overflow: revert;
 					}
 
 
-					
 
-					article.slide > article,
-					article.slide > section {
+
+					article.slide>article,
+					article.slide>section {
 						overflow: auto;
 						padding: .5em;
 					}
 
-					article.slide > :not(nav):not(header):not(footer):not(aside) ~ article,
-					article.slide > :not(nav):not(header):not(footer):not(aside) ~ section {
+					article.slide> :not(nav):not(header):not(footer):not(aside)~article,
+					article.slide> :not(nav):not(header):not(footer):not(aside)~section {
 						padding: 0;
 						overflow: visible;
 						all: revert;
@@ -277,10 +276,10 @@
 
 
 
-					
 
 
-					article.slide > :not(nav):not(header):not(footer):not(aside) ~ :not(nav):not(header):not(footer):not(aside),
+
+					article.slide> :not(nav):not(header):not(footer):not(aside)~ :not(nav):not(header):not(footer):not(aside),
 					article.slide * {
 						max-height: 100%;
 						max-width: 100%;
@@ -289,16 +288,16 @@
 
 
 
-					
 
 
-					
 
-					article.slide > nav:not(:first-of-type),
-					article.slide > header:not(:first-of-type),
-					article.slide > footer:not(:first-of-type),
-					article.slide > aside:not(:first-of-type),
-					article.slide > :not(nav):not(header):not(footer):not(aside) ~ :not(nav):not(header):not(footer):not(aside) {
+
+
+					article.slide>nav:not(:first-of-type),
+					article.slide>header:not(:first-of-type),
+					article.slide>footer:not(:first-of-type),
+					article.slide>aside:not(:first-of-type),
+					article.slide> :not(nav):not(header):not(footer):not(aside)~ :not(nav):not(header):not(footer):not(aside) {
 						position: relative;
 						left: 0;
 						top: 0;
@@ -307,9 +306,9 @@
 					}
 
 
-					
 
-					article.slide > nav:first-of-type {
+
+					article.slide>nav:first-of-type {
 						display: block;
 						position: absolute;
 						left: var(--t5em);
@@ -324,9 +323,9 @@
 					}
 
 
-					
 
-					article.slide > header:first-of-type {
+
+					article.slide>header:first-of-type {
 						position: absolute;
 						left: 0;
 						right: 0;
@@ -339,14 +338,14 @@
 						text-align: center;
 						overflow: visible;
 						font-size: larger;
-						z-index: 10002;		
+						z-index: 10002;
 					}
 
 
-					
 
-					article.slide > footer:first-of-type,
-					article.slide > aside:first-of-type {
+
+					article.slide>footer:first-of-type,
+					article.slide>aside:first-of-type {
 						position: absolute;
 						bottom: calc(var(--t5vp) - var(--t5fh));
 						box-sizing: border-box;
@@ -359,69 +358,70 @@
 						overflow: hidden;
 					}
 
-					article.slide > footer:first-of-type {
+					article.slide>footer:first-of-type {
 						right: var(--t5em);
 						z-index: 10010;
 						text-align: right;
 
 					}
 
-					article.slide > aside:first-of-type {
+					article.slide>aside:first-of-type {
 						left: var(--t5em);
 						z-index: 10009;
 						text-align: left;
 					}
 
-					article.slide.wrap > footer:first-of-type {
+					article.slide.wrap>footer:first-of-type {
 						z-index: 10004;
 
 					}
 
-					article.slide.wrap > aside:first-of-type {
+					article.slide.wrap>aside:first-of-type {
 						z-index: 10003;
 					}
 
-					article.slide.wrap > :not(nav):not(header):not(footer):not(aside) {
+					article.slide.wrap> :not(nav):not(header):not(footer):not(aside) {
 						z-index: 10006;
 					}
 
-					article.slide.wrap > nav:not(:first-of-type),
-					article.slide.wrap > header:not(:first-of-type),
-					article.slide.wrap > footer:not(:first-of-type),
-					article.slide.wrap > aside:not(:first-of-type),
-					article.slide.wrap > :not(nav):not(header):not(footer):not(aside) ~ :not(nav):not(header):not(footer):not(aside) {
+					article.slide.wrap>nav:not(:first-of-type),
+					article.slide.wrap>header:not(:first-of-type),
+					article.slide.wrap>footer:not(:first-of-type),
+					article.slide.wrap>aside:not(:first-of-type),
+					article.slide.wrap> :not(nav):not(header):not(footer):not(aside)~ :not(nav):not(header):not(footer):not(aside) {
 						z-index: 10005;
 					}
 
-					article.slide > header:first-of-type * {
+					article.slide>header:first-of-type * {
 						text-align: center;
 					}
 
-					article.slide > header:first-of-type * {
+					article.slide>header:first-of-type * {
 						margin: var(--t5as) 0 0 0;
 					}
 
-					article.slide > header:first-of-type > :only-child {
+					article.slide>header:first-of-type> :only-child {
 						margin: var(--t5as) 0 var(--t5as) 0;
 					}
 
-					article.slide > footer:first-of-type > :last-child,
-					article.slide > aside:first-of-type > :last-child {
+					article.slide>footer:first-of-type> :last-child,
+					article.slide>aside:first-of-type> :last-child {
 						margin-bottom: 0;
 					}
-					article.slide > nav:first-of-type a[href].vision,
-					article.slide > nav:first-of-type a[href][rel~="first"],
-					article.slide > nav:first-of-type a[href][rel~="index"],
-					article.slide > nav:first-of-type a[href][rel~="last"],
-					article.slide > nav:first-of-type a[href][rel~="prev"],
-					article.slide > nav:first-of-type a[href][rel~="next"],
-					article.slide > nav:first-of-type a[href][rel~="attachment"],
-					article.slide > nav:first-of-type a[href][rel~="bookmark"],
-					article.slide > nav:first-of-type a[href][rel~="author"],
-					article.slide > nav:first-of-type a[href][rel~="discussion"],
-					article.slide > nav:first-of-type a[href][rel~="parent"],
-					article.slide.foyer > nav:first-of-type a[href][rel~="parent"],
-					article.slide > nav:first-of-type a[href][rel~="child"][rel~="parent"] {
+
+					article.slide>nav:first-of-type a[href].vision,
+					article.slide>nav:first-of-type a[href][rel~="first"],
+					article.slide>nav:first-of-type a[href][rel~="index"],
+					article.slide>nav:first-of-type a[href][rel~="last"],
+					article.slide>nav:first-of-type a[href][rel~="prev"],
+					article.slide>nav:first-of-type a[href][rel~="next"],
+					article.slide>nav:first-of-type a[href][rel~="attachment"],
+					article.slide>nav:first-of-type a[href][rel~="bookmark"],
+					article.slide>nav:first-of-type a[href][rel~="author"],
+					article.slide>nav:first-of-type a[href][rel~="discussion"],
+					article.slide>nav:first-of-type a[href][rel~="parent"],
+					article.slide.foyer>nav:first-of-type a[href][rel~="parent"],
+					article.slide>nav:first-of-type a[href][rel~="child"][rel~="parent"] {
 						display: block;
 						position: fixed;
 						top: 0;
@@ -443,19 +443,19 @@
 						transition: visibility 0s 1s, color 1s 0s linear;
 					}
 
-					article.slide > nav:first-of-type a[href].vision:hover,
-					article.slide > nav:first-of-type a[href][rel~="first"]:hover,
-					article.slide > nav:first-of-type a[href][rel~="index"]:hover,
-					article.slide > nav:first-of-type a[href][rel~="last"]:hover,
-					article.slide > nav:first-of-type a[href][rel~="prev"]:hover,
-					article.slide > nav:first-of-type a[href][rel~="next"]:hover,
-					article.slide > nav:first-of-type a[href][rel~="attachment"]:hover,
-					article.slide > nav:first-of-type a[href][rel~="bookmark"]:hover,
-					article.slide > nav:first-of-type a[href][rel~="author"]:hover,
-					article.slide > nav:first-of-type a[href][rel~="discussion"]:hover,
-					article.slide > nav:first-of-type a[href][rel~="parent"]:hover,
-					article.slide.foyer > nav:first-of-type a[href][rel~="parent"]:hover,
-					article.slide > nav:first-of-type a[href][rel~="child"][rel~="parent"]:hover {
+					article.slide>nav:first-of-type a[href].vision:hover,
+					article.slide>nav:first-of-type a[href][rel~="first"]:hover,
+					article.slide>nav:first-of-type a[href][rel~="index"]:hover,
+					article.slide>nav:first-of-type a[href][rel~="last"]:hover,
+					article.slide>nav:first-of-type a[href][rel~="prev"]:hover,
+					article.slide>nav:first-of-type a[href][rel~="next"]:hover,
+					article.slide>nav:first-of-type a[href][rel~="attachment"]:hover,
+					article.slide>nav:first-of-type a[href][rel~="bookmark"]:hover,
+					article.slide>nav:first-of-type a[href][rel~="author"]:hover,
+					article.slide>nav:first-of-type a[href][rel~="discussion"]:hover,
+					article.slide>nav:first-of-type a[href][rel~="parent"]:hover,
+					article.slide.foyer>nav:first-of-type a[href][rel~="parent"]:hover,
+					article.slide>nav:first-of-type a[href][rel~="child"][rel~="parent"]:hover {
 						right: 0;
 						visibility: inherit;
 						color: #fff;
@@ -463,11 +463,11 @@
 						background-color: transparent;
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="parent"]:hover {
+					article.slide>nav:first-of-type a[href][rel~="parent"]:hover {
 						transition: color 1s .5s linear;
 					}
 
-					article.slide:not(.pinned) > nav:first-of-type a[href][rel~="parent"] {
+					article.slide:not(.pinned)>nav:first-of-type a[href][rel~="parent"] {
 						width: 100%;
 						height: 100%;
 						margin: 0;
@@ -476,10 +476,10 @@
 						z-index: 10008;
 					}
 
-					article.slide > nav:first-of-type a[href],
-					article.slide > nav:first-of-type a[href][rel].tab,
-					article.slide > nav:first-of-type a[href][rel].no-rel,
-					article.slide.foyer > nav:first-of-type a[href] {
+					article.slide>nav:first-of-type a[href],
+					article.slide>nav:first-of-type a[href][rel].tab,
+					article.slide>nav:first-of-type a[href][rel].no-rel,
+					article.slide.foyer>nav:first-of-type a[href] {
 						display: block;
 						position: relative;
 						width: calc(100% + var(--t5lxw) + var(--t5lho));
@@ -507,18 +507,19 @@
 						z-index: 10014;
 					}
 
-					article.slide > nav:first-of-type a[href]:hover,
-					article.slide > nav:first-of-type a[href][rel].tab:hover,
-					article.slide > nav:first-of-type a[href][rel].no-rel:hover,
-					article.slide.foyer > nav:first-of-type a[href]:hover {
+					article.slide>nav:first-of-type a[href]:hover,
+					article.slide>nav:first-of-type a[href][rel].tab:hover,
+					article.slide>nav:first-of-type a[href][rel].no-rel:hover,
+					article.slide.foyer>nav:first-of-type a[href]:hover {
 						right: var(--t5lxw);
 						background-color: rgba(25, 25, 25, .9);
 						color: inherit;
 						transition: right .5s ease;
 					}
-					article.slide > nav:first-of-type a[href].plate,
-					article.slide > nav:first-of-type a[href][rel].plate,
-					article.slide > nav:first-of-type a[href][rel~="child"] {
+
+					article.slide>nav:first-of-type a[href].plate,
+					article.slide>nav:first-of-type a[href][rel].plate,
+					article.slide>nav:first-of-type a[href][rel~="child"] {
 						position: relative;
 						display: block;
 						width: auto;
@@ -542,123 +543,124 @@
 						z-index: 10013;
 					}
 
-					article.slide > nav:first-of-type a[href].plate:hover,
-					article.slide > nav:first-of-type a[href][rel].plate:hover,
-					article.slide > nav:first-of-type a[href][rel~="child"]:hover {
+					article.slide>nav:first-of-type a[href].plate:hover,
+					article.slide>nav:first-of-type a[href][rel].plate:hover,
+					article.slide>nav:first-of-type a[href][rel~="child"]:hover {
 						background-color: #fff;
 						color: #000;
 						right: 0;
 						transition: background-color .5s linear, color .5s linear;
 					}
 
-					article.slide > nav:first-of-type a[href]:not(:empty)::before {
+					article.slide>nav:first-of-type a[href]:not(:empty)::before {
 						display: block;
 						font-size: .70em;
 						font-style: normal;
 						margin: 0;
 					}
 
-					article.slide > nav:first-of-type a[href]:not([rel])::before {
+					article.slide>nav:first-of-type a[href]:not([rel])::before {
 						content: "See also";
 					}
 
 
-					
 
-					article.slide > nav:first-of-type a[href][rel]::before {
+
+					article.slide>nav:first-of-type a[href][rel]::before {
 						content: attr(rel);
 						text-transform: capitalize;
 					}
 
 
-					
 
-					article.slide > nav:first-of-type a[href][rel~="tag"]::before {
+
+					article.slide>nav:first-of-type a[href][rel~="tag"]::before {
 						content: "Tagged content";
 						text-transform: none;
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="discussion"]::before {
+					article.slide>nav:first-of-type a[href][rel~="discussion"]::before {
 						content: "Comments";
 						text-transform: none;
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="author"]::before {
+					article.slide>nav:first-of-type a[href][rel~="author"]::before {
 						content: "Author";
 						text-transform: none;
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="attachment"]::before {
+					article.slide>nav:first-of-type a[href][rel~="attachment"]::before {
 						content: "Download";
 						text-transform: none;
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="bookmark"]::before {
+					article.slide>nav:first-of-type a[href][rel~="bookmark"]::before {
 						content: "Share it!";
 						text-transform: none;
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="index"]::before {
+					article.slide>nav:first-of-type a[href][rel~="index"]::before {
 						content: "Index";
 						text-transform: none;
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="first"]::before {
+					article.slide>nav:first-of-type a[href][rel~="first"]::before {
 						content: "First slide";
 						text-transform: none;
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="last"]::before {
+					article.slide>nav:first-of-type a[href][rel~="last"]::before {
 						content: "Last slide";
 						text-transform: none;
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="prev"]::before {
+					article.slide>nav:first-of-type a[href][rel~="prev"]::before {
 						content: "Previous slide";
 						text-transform: none;
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="next"]::before {
+					article.slide>nav:first-of-type a[href][rel~="next"]::before {
 						content: "Next slide";
 						text-transform: none;
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="child"]::before {
+					article.slide>nav:first-of-type a[href][rel~="child"]::before {
 						content: "More";
 						text-transform: none;
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="parent"]::before {
+					article.slide>nav:first-of-type a[href][rel~="parent"]::before {
 						content: "Back to";
 						text-transform: none;
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="parent"]:empty::before {
+					article.slide>nav:first-of-type a[href][rel~="parent"]:empty::before {
 						content: "Exit";
 						text-transform: none;
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="parent"]:not(.tab):not(.plate):not(.no-rel):empty::before {
+					article.slide>nav:first-of-type a[href][rel~="parent"]:not(.tab):not(.plate):not(.no-rel):empty::before {
 						content: "Click to exit";
 						text-transform: none;
 					}
-					
-					article.slide:not(.flr):not(.flc) > nav:first-of-type a[href].no-label::before,
-					article.slide:not(.flr):not(.flc) > nav:first-of-type a[href].no-label:not(.tab):not(.plate):not(.no-rel):empty::before,
-					article.slide:not(.verbose) > nav:first-of-type a[href]:not([rel~="parent"]):not(.with-label):not(:empty)::before,
-					article.slide:not(.verbose) > nav:first-of-type a[href].tab:not(.with-label):not(:empty)::before,
-					article.slide:not(.verbose) > nav:first-of-type a[href].plate:not(.with-label):not(:empty)::before,
-					article.slide:not(.verbose) > nav:first-of-type a[href].no-rel:not(.with-label):not(:empty)::before,
-					article.slide.pinned:not(.verbose) > nav:first-of-type a[href][rel~="parent"]:not(.plate):not(.tab):not(.no-rel):not(.with-label):empty::before {
+
+					article.slide:not(.flr):not(.flc)>nav:first-of-type a[href].no-label::before,
+					article.slide:not(.flr):not(.flc)>nav:first-of-type a[href].no-label:not(.tab):not(.plate):not(.no-rel):empty::before,
+					article.slide:not(.verbose)>nav:first-of-type a[href]:not([rel~="parent"]):not(.with-label):not(:empty)::before,
+					article.slide:not(.verbose)>nav:first-of-type a[href].tab:not(.with-label):not(:empty)::before,
+					article.slide:not(.verbose)>nav:first-of-type a[href].plate:not(.with-label):not(:empty)::before,
+					article.slide:not(.verbose)>nav:first-of-type a[href].no-rel:not(.with-label):not(:empty)::before,
+					article.slide.pinned:not(.verbose)>nav:first-of-type a[href][rel~="parent"]:not(.plate):not(.tab):not(.no-rel):not(.with-label):empty::before {
 						content: none;
 					}
-					article.slide:not(.flc) > nav:first-of-type a[href][data-label]:not([data-label=""]):not(.no-label)::before,
-					article.slide:not(.flc) > nav:first-of-type a[href][data-label]:not([data-label=""]):not(.plate):not(.tab):not(.no-rel):not(.no-label):empty::before {
+
+					article.slide:not(.flc)>nav:first-of-type a[href][data-label]:not([data-label=""]):not(.no-label)::before,
+					article.slide:not(.flc)>nav:first-of-type a[href][data-label]:not([data-label=""]):not(.plate):not(.tab):not(.no-rel):not(.no-label):empty::before {
 						content: attr(data-label);
 						text-transform: none;
 					}
 
-					article.slide > nav:first-of-type a[href]::after {
+					article.slide>nav:first-of-type a[href]::after {
 						content: none;
 						position: fixed;
 						display: block;
@@ -676,59 +678,59 @@
 						transition: visibility 0s .5s;
 					}
 
-					article.slide:target > nav:first-of-type a[href]::after {
+					article.slide:target>nav:first-of-type a[href]::after {
 						visibility: visible;
 						transition: none;
 					}
 
 
 
-					article.slide > nav:first-of-type a[href][rel~="discussion"]:not(.no-rel)::after {
+					article.slide>nav:first-of-type a[href][rel~="discussion"]:not(.no-rel)::after {
 						content: "\1F5E8";
 						left: var(--t5hp);
 						bottom: var(--t5vp);
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="attachment"]:not(.no-rel)::after {
+					article.slide>nav:first-of-type a[href][rel~="attachment"]:not(.no-rel)::after {
 						content: "\1F4CE";
 						left: calc(100% - var(--t5hp) - var(--t5gs));
 						bottom: var(--t5vp);
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="bookmark"]:not(.no-rel)::after {
+					article.slide>nav:first-of-type a[href][rel~="bookmark"]:not(.no-rel)::after {
 						content: "\1F517";
 						left: var(--t5hp);
 						top: var(--t5vp);
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="author"]:not(.no-rel)::after {
+					article.slide>nav:first-of-type a[href][rel~="author"]:not(.no-rel)::after {
 						content: "\2709\FE0F";
 						left: calc(100% - var(--t5hp) - var(--t5gs));
 						top: var(--t5vp);
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="index"]:not(.no-rel)::after {
+					article.slide>nav:first-of-type a[href][rel~="index"]:not(.no-rel)::after {
 						content: "\2302";
 						bottom: calc(var(--t5vp) - var(--t5gs) - var(--t5vs));
 						left: calc(50% - var(--t5gs) / 2);
 						font-size: var(--t5gs);
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="last"]:not(.no-rel)::after {
+					article.slide>nav:first-of-type a[href][rel~="last"]:not(.no-rel)::after {
 						content: "\23ED";
 						bottom: calc(var(--t5vp) - var(--t5gs) - var(--t5vs));
 						left: calc(50% + var(--t5gs) / 2 + var(--t5as));
 						font-size: calc(var(--t5gs) / 5 * 3);
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="first"]:not(.no-rel)::after {
+					article.slide>nav:first-of-type a[href][rel~="first"]:not(.no-rel)::after {
 						content: "\23EE";
 						bottom: calc(var(--t5vp) - var(--t5gs) - var(--t5vs));
 						left: calc(50% - 3 * var(--t5gs) / 2 - var(--t5as));
 						font-size: calc(var(--t5gs) / 5 * 3);
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="prev"]:not(.no-rel)::after {
+					article.slide>nav:first-of-type a[href][rel~="prev"]:not(.no-rel)::after {
 						content: "\276E";
 						left: var(--t5hp);
 						top: 0;
@@ -738,7 +740,7 @@
 						font-size: calc(var(--t5gs) * 9 / 5);
 					}
 
-					article.slide > nav:first-of-type a[href][rel~="next"]:not(.no-rel)::after {
+					article.slide>nav:first-of-type a[href][rel~="next"]:not(.no-rel)::after {
 						content: "\276F";
 						left: calc(100% - var(--t5hp) - var(--t5gs));
 						top: 0;
@@ -750,11 +752,11 @@
 
 
 
-					article.slide > nav:first-of-type a[href][rel~="parent"]:not(.no-rel)::after {
+					article.slide>nav:first-of-type a[href][rel~="parent"]:not(.no-rel)::after {
 						content: "\00D7";
 						width: var(--t5es);
 						height: calc(var(--t5es) * 4 / 5);
-						line-height: calc(var(--t5es)  * 4 / 5);
+						line-height: calc(var(--t5es) * 4 / 5);
 						font-size: calc(var(--t5es) * 16 / 25);
 						top: 0;
 						right: 0;
@@ -765,13 +767,13 @@
 						transition: top 1.5s ease;
 					}
 
-					article.slide:not(:target) > nav:first-of-type a[href][rel~="parent"]:not(.no-rel)::after {
+					article.slide:not(:target)>nav:first-of-type a[href][rel~="parent"]:not(.no-rel)::after {
 						top: var(--t5fo);
 					}
 
 
 
-					
+
 
 
 
@@ -879,11 +881,11 @@
 						font-style: normal;
 					}
 
-					article.slide > blockquote {
+					article.slide>blockquote {
 						font-size: 1.4em;
 					}
 
-					article.slide > :not(nav):not(header):not(footer):not(aside) ~ blockquote {
+					article.slide> :not(nav):not(header):not(footer):not(aside)~blockquote {
 						font-size: inherit;
 					}
 
@@ -921,7 +923,7 @@
 						padding: 0;
 					}
 
-					article.slide dl > dt {
+					article.slide dl>dt {
 						box-sizing: border-box;
 						margin: 0;
 						padding: 0 .5em 0 2em;
@@ -930,7 +932,7 @@
 						clear: left;
 					}
 
-					article.slide dl > dd {
+					article.slide dl>dd {
 						box-sizing: border-box;
 						margin: 0 0 0 25%;
 						padding: 0 2em 0 .5em;
@@ -939,7 +941,7 @@
 						clear: right;
 					}
 
-					article.slide dl > dt + dd {
+					article.slide dl>dt+dd {
 						margin: 0;
 					}
 
@@ -949,7 +951,7 @@
 						border-radius: var(--t5br);
 					}
 
-					article.slide fieldset > legend {
+					article.slide fieldset>legend {
 						font-size: 1.5em;
 						font-weight: bold;
 						padding: .133em .5em;
@@ -1017,17 +1019,16 @@
 
 
 
-				
 
 
-				@media
-				only screen and not (pointer: fine),
+
+				@media only screen and not (pointer: fine),
 				only screen and not (hover: hover) {
 
-					article.slide > nav:first-of-type a[href],
-					article.slide > nav:first-of-type a[href][rel].tab,
-					article.slide > nav:first-of-type a[href][rel].no-rel,
-					article.slide.foyer > nav:first-of-type a[href] {
+					article.slide>nav:first-of-type a[href],
+					article.slide>nav:first-of-type a[href][rel].tab,
+					article.slide>nav:first-of-type a[href][rel].no-rel,
+					article.slide.foyer>nav:first-of-type a[href] {
 						right: var(--t5lxw);
 					}
 
@@ -1040,10 +1041,11 @@
 					article.slide:not(.nonadaptive) {
 						font-size: calc(var(--t5fs) * 7 / 8);
 					}
-					article.slide:not(.nonadaptive).foyer > nav:first-of-type a[href]:not(.vision):not(:empty)::before,
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href]:not([rel~="parent"]):not([rel~="first"]):not([rel~="index"]):not([rel~="last"]):not([rel~="prev"]):not([rel~="next"]):not([rel~="attachment"]):not([rel~="bookmark"]):not([rel~="author"]):not([rel~="discussion"]):not(.vision):not(:empty)::before,
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href].tab:not(:empty)::before,
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href].no-rel:not(:empty)::before {
+
+					article.slide:not(.nonadaptive).foyer>nav:first-of-type a[href]:not(.vision):not(:empty)::before,
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href]:not([rel~="parent"]):not([rel~="first"]):not([rel~="index"]):not([rel~="last"]):not([rel~="prev"]):not([rel~="next"]):not([rel~="attachment"]):not([rel~="bookmark"]):not([rel~="author"]):not([rel~="discussion"]):not(.vision):not(:empty)::before,
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href].tab:not(:empty)::before,
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href].no-rel:not(:empty)::before {
 						content: none;
 					}
 
@@ -1095,7 +1097,7 @@
 						max-width: 100%;
 					}
 
-					article.slide:not(.nonadaptive) > :not(nav):not(header):not(footer):not(aside) {
+					article.slide:not(.nonadaptive)> :not(nav):not(header):not(footer):not(aside) {
 						position: relative;
 						top: 0;
 						left: 0;
@@ -1105,30 +1107,30 @@
 						transform: none;
 					}
 
-					article.slide:not(.nonadaptive):not(:target) > :not(nav):not(header):not(footer):not(aside) {
+					article.slide:not(.nonadaptive):not(:target)> :not(nav):not(header):not(footer):not(aside) {
 
 						transform: scale(0.001);
 					}
 
-					article.slide:not(.nonadaptive) > :not(nav):not(header):not(footer):not(aside) ~ :not(nav):not(header):not(footer):not(aside) {
+					article.slide:not(.nonadaptive)> :not(nav):not(header):not(footer):not(aside)~ :not(nav):not(header):not(footer):not(aside) {
 
 						max-width: none;
 						max-height: none;
 
 					}
 
-					article.slide:not(.nonadaptive):not(:target) > :not(nav):not(header):not(footer):not(aside) ~ :not(nav):not(header):not(footer):not(aside) {
+					article.slide:not(.nonadaptive):not(:target)> :not(nav):not(header):not(footer):not(aside)~ :not(nav):not(header):not(footer):not(aside) {
 
 						transform: none;
 					}
 
-					article.slide:not(.nonadaptive) > header:first-of-type {
+					article.slide:not(.nonadaptive)>header:first-of-type {
 						bottom: calc(100% - var(--t5abgs) * 4 / 5 - var(--t5ags) * 2);
 						padding: 0 calc(var(--t5ags) + var(--t5em));
 						font-size: 1em;
 					}
 
-					article.slide:not(.nonadaptive) > nav:first-of-type {
+					article.slide:not(.nonadaptive)>nav:first-of-type {
 						display: block;
 						position: static;
 						width: auto;
@@ -1137,8 +1139,8 @@
 
 					}
 
-					article.slide:not(.nonadaptive) > aside:first-of-type,
-					article.slide:not(.nonadaptive) > footer:first-of-type {
+					article.slide:not(.nonadaptive)>aside:first-of-type,
+					article.slide:not(.nonadaptive)>footer:first-of-type {
 						position: relative;
 						bottom: 0;
 						left: 0;
@@ -1147,19 +1149,19 @@
 						margin: 1em auto;
 					}
 
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href].vision,
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel],
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="index"],
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="last"],
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="prev"],
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="next"],
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="attachment"],
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="bookmark"],
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="author"],
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="discussion"],
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="parent"],
-					article.slide:not(.nonadaptive).foyer > nav:first-of-type a[href][rel~="parent"],
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="child"][rel~="parent"] {
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href].vision,
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel],
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="index"],
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="last"],
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="prev"],
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="next"],
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="attachment"],
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="bookmark"],
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="author"],
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="discussion"],
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="parent"],
+					article.slide:not(.nonadaptive).foyer>nav:first-of-type a[href][rel~="parent"],
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="child"][rel~="parent"] {
 						display: block;
 						position: fixed;
 						top: 0;
@@ -1173,16 +1175,16 @@
 						border-radius: 0;
 					}
 
-					article.slide:not(.nonadaptive):not(.pinned) > nav:first-of-type a[href][rel~="parent"] {
+					article.slide:not(.nonadaptive):not(.pinned)>nav:first-of-type a[href][rel~="parent"] {
 						margin: 0;
 						padding: .5vmin calc(var(--t5em) + var(--t5abgs)) .5vmin 1vmin;
 						width: 100%;
 					}
 
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href],
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel].tab,
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel].no-rel,
-					article.slide:not(.nonadaptive).foyer > nav:first-of-type a[href] {
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href],
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel].tab,
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel].no-rel,
+					article.slide:not(.nonadaptive).foyer>nav:first-of-type a[href] {
 						display: inline-block;
 						position: relative;
 						top: 0;
@@ -1200,15 +1202,15 @@
 
 					}
 
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href]::before {
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href]::before {
 						content: none;
 					}
 
 
 
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href].plate,
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel].plate,
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="child"] {
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href].plate,
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel].plate,
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="child"] {
 						display: block;
 						position: relative;
 						width: auto;
@@ -1223,41 +1225,41 @@
 
 
 
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href]::after {
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href]::after {
 						width: var(--t5ags);
 						height: var(--t5ags);
 						line-height: var(--t5ags);
 						font-size: calc(var(--t5ags) * 4 / 5);
 					}
 
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="discussion"]:not(.no-rel)::after {
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="discussion"]:not(.no-rel)::after {
 						top: calc(var(--t5abgs) * 4 / 5 + var(--t5ags));
 						bottom: unset;
 						left: var(--t5em);
 					}
 
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="attachment"]:not(.no-rel)::after {
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="attachment"]:not(.no-rel)::after {
 						top: calc(var(--t5abgs) * 4 / 5 + var(--t5ags));
 						bottom: unset;
 						left: calc(100% - var(--t5em) * 2 - var(--t5ags));
 
 					}
 
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="bookmark"]:not(.no-rel)::after {
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="bookmark"]:not(.no-rel)::after {
 						top: calc(var(--t5abgs) * 4 / 5);
 						bottom: unset;
 						left: var(--t5em);
 
 					}
 
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="author"]:not(.no-rel)::after {
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="author"]:not(.no-rel)::after {
 						top: calc(var(--t5abgs) * 4 / 5);
 						bottom: unset;
 						left: calc(100% - var(--t5em) * 2 - var(--t5ags));
 
 					}
 
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="index"]:not(.no-rel)::after {
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="index"]:not(.no-rel)::after {
 						top: calc(var(--t5em) + var(--t5vs));
 						bottom: unset;
 						left: calc(50% - var(--t5abgs) / 2);
@@ -1267,7 +1269,7 @@
 						line-height: var(--t5abgs);
 					}
 
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="last"]:not(.no-rel)::after {
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="last"]:not(.no-rel)::after {
 						top: calc(var(--t5em) + var(--t5vs));
 						bottom: unset;
 						left: calc(50% + 3 * var(--t5abgs) / 2 + var(--t5hs) * 6);
@@ -1277,7 +1279,7 @@
 						line-height: var(--t5abgs);
 					}
 
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="first"]:not(.no-rel)::after {
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="first"]:not(.no-rel)::after {
 						top: calc(var(--t5em) + var(--t5vs));
 						bottom: unset;
 						left: calc(50% - 5 * var(--t5abgs) / 2 - var(--t5hs) * 6);
@@ -1287,7 +1289,7 @@
 						line-height: var(--t5abgs);
 					}
 
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="prev"]:not(.no-rel)::after {
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="prev"]:not(.no-rel)::after {
 						top: calc(var(--t5em) + var(--t5vs));
 						bottom: unset;
 						left: calc(50% - 3 * var(--t5abgs) / 2 - var(--t5hs) * 3);
@@ -1298,7 +1300,7 @@
 						text-align: center;
 					}
 
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="next"]:not(.no-rel)::after {
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="next"]:not(.no-rel)::after {
 						top: calc(var(--t5em) + var(--t5vs));
 						bottom: unset;
 						left: calc(50% + var(--t5abgs) / 2 + var(--t5hs) * 3);
@@ -1309,14 +1311,14 @@
 						font-size: var(--t5abgs);
 					}
 
-					article.slide:not(.nonadaptive) > nav:first-of-type a[href][rel~="parent"]:not(.no-rel)::after {
+					article.slide:not(.nonadaptive)>nav:first-of-type a[href][rel~="parent"]:not(.no-rel)::after {
 						top: 0;
 						bottom: unset;
 						left: unset;
 						right: 0;
 						width: var(--t5abgs);
 						height: calc(var(--t5abgs) * 4 / 5);
-						line-height: calc(var(--t5abgs)  * 4 / 5);
+						line-height: calc(var(--t5abgs) * 4 / 5);
 						font-size: calc(var(--t5abgs) * 16 / 25);
 					}
 
@@ -1422,50 +1424,49 @@
 					}
 
 				}
-
 			</style>
-			<p>Test</p>
-			<p style="text-align: center; font-size: 2em;">
-				<a href="#main"><em>trykk her!</em> </a>
-			</p>
+			<div class="root">
+				<p style="text-align: center; font-size: 2em;">
+					<a href="#main"><em>trykk her!</em> </a>
+				</p>
 
-			<article class="verbose foyer slide" id="main">
-				<header style="background-color: #9be712;">
-					<h2><code>Ole Jacob Brunstad</code></h2>
-				</header>
-				<div style="background-color: #17f1f9; width: 100%; height: 100%;">
-					<code><em>leelo</em></code>
-				</div>
-				<div style="background-color: #c1eb00; width: 100%; height: 100%;">
-					Anything else
-				</div>
-				<aside style="background-color: #c1eb00;">
-					<code>https://github.com/olejbl</code>
-				</aside>
-				<nav class="plate">
-					
-					<a href="#nowhere" rel="parent">Lukk</a>
-					<a href="#quote" rel="next"><code>"next"</code> test</a>
-				</nav>
-				<footer style="background-color: #660000;">
-					<code>&lt;footer&gt;</code>
-				</footer>
-			</article>
-			<article class="foyer slide" id="quote">
-				<header>
-					<h2>Min readme.md er kulere enn din</h2>
-				</header>
-				<nav>
-					<a href="#nowhere" rel="parent">Lukk</a>
-					<a href="#main" rel="prev">Main</a>
-				</nav>
-				<blockquote>
-					CSS er veldig kult.
-					<footer>Ole Jacob</footer>
-				</blockquote>
-			</article>
+				<article class="verbose foyer slide" id="main">
+					<header style="background-color: #9be712;">
+						<h2><code>Ole Jacob Brunstad</code></h2>
+					</header>
+					<div style="background-color: #17f1f9; width: 100%; height: 100%;">
+						<code><em>leelo</em></code>
+					</div>
+					<div style="background-color: #c1eb00; width: 100%; height: 100%;">
+						Anything else
+					</div>
+					<aside style="background-color: #c1eb00;">
+						<code>https://github.com/olejbl</code>
+					</aside>
+					<nav class="plate">
 
+						<a href="#nowhere" rel="parent">Lukk</a>
+						<a href="#quote" rel="next"><code>"next"</code> test</a>
+					</nav>
+					<footer style="background-color: #660000;">
+						<code>&lt;footer&gt;</code>
+					</footer>
+				</article>
+				<article class="foyer slide" id="quote">
+					<header>
+						<h2>Min readme.md er kulere enn din</h2>
+					</header>
+					<nav>
+						<a href="#nowhere" rel="parent">Lukk</a>
+						<a href="#main" rel="prev">Main</a>
+					</nav>
+					<blockquote>
+						CSS er veldig kult.
+						<footer>Ole Jacob</footer>
+					</blockquote>
+				</article>
+			</div>
 		</div>
-	</body>
+		</body>
 	</foreignObject>
 </svg>
