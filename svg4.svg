@@ -2,75 +2,29 @@
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml" class="container">
 			<style>
-:root {
-
-	/*  Do your hacks here!  */
-
-
-	/*  Font size  */
-	--take5-font-size: .8em;	/*  preferably `em`  */
-
-	/*  Vertical padding  */
-	--take5-vpadding: 9.5vh;	/*  absolute values only  */
-
-	/*  Horizontal padding  */
-	--take5-hpadding: 18%;		/*  accepts viewport percentage (width) */
-
-	/*  A vertical space   */
-	--take5-vspace: .47vh;		/*  absolute values only  */
-
-	/*  An orientation-agnostic (`vmin`) space  */
-	--take5-aspace: .78vmin;	/*  absolute values only  */
-
-	/*  A horizontal space  */
-	--take5-hspace: .88vw;		/*  absolute values only  */
-
-	/*  Icon size  */
-	--take5-glyphsize: 40px;	/*  absolute values only  */
-
-	/*  `<footer>` and  `<aside>` **minimum** height  */
-	--take5-footer-h: 3.3vh;	/*  absolute values only  */
-
-	/*  External margins  */
-	--take5-margin: 1.88vmin;	/*  absolute values only  */
-
-	/*  `<nav>` vertical positioning (top)  */
-	--take5-nav-y: 3.8vh;		/*  accepts viewport percentage (height)  */
-
-	/*  Horizontal overflow of tabs when `:not(:hover)`  */
-	--take5-navlink-of: 50%;	/*  percentages only (for IE)  */
-
-	/*  Horizontal overflow of tabs during `:hover`  */
-	--take5-navlink-hof: 2%;	/*  percentages only (for IE)  */
-
-	/*  Extra width of link tabs  */
-	--take5-navlink-xw: 40%;	/*  percentages only (for IE)  */
-
-	/*  Vertical separator between `<nav>` links  */
-	--take5-nav-vsep: 3.8vh;	/*  absolute values only  */
-
-	/*  Horizontal separator between `<nav>` links and margins  */
-	--take5-nav-hsep: 2.37vw;	/*  absolute values only  */
-
-	/*  Shadows  */
-	--take5-shadows: 0 0 20px #000;
-
-	/*  Border radius  */
-	--take5-rounds: 8px;		/*  absolute values only  */
-
-	/*  Size of the exit icon  */
-	--take5-exitsize: 20px;		/*  absolute values only  */
-
-	/*  How far outside of the viewport should elements disappear?  */
-	--take5-far-out: -20px;		/*  absolute values only  */
-
-	/*  Adaptive icon size  */
-	--take5-apt-bglyphsize: 11vmin;	/*  absolute values only  */
-
-	/*  Adaptive small icon size  */
-	--take5-apt-glyphsize: 7vmin;	/*  absolute values only  */
-
-}
+				.root {
+					--take5-font-size: .8em;	
+					--take5-vpadding: 9.5vh;	
+					--take5-hpadding: 18%;		
+					--take5-vspace: .47vh;	
+					--take5-aspace: .78vmin;	
+					--take5-hspace: .88vw;	
+					--take5-glyphsize: 40px;	
+					--take5-footer-h: 3.3vh;	
+					--take5-margin: 1.88vmin;
+					--take5-nav-y: 3.8vh;
+					--take5-navlink-of: 50%;
+					--take5-navlink-hof: 2%;
+					--take5-navlink-xw: 40%;
+					--take5-nav-vsep: 3.8vh;
+					--take5-nav-hsep: 2.37vw;
+					--take5-shadows: 0 0 20px #000;
+					--take5-rounds: 8px;
+					--take5-exitsize: 20px;
+					--take5-far-out: -20px;	
+					--take5-apt-bglyphsize: 11vmin;
+					--take5-apt-glyphsize: 7vmin;	
+				}
 </style>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="" viewBox="0 0 600 600">
 		<div>
