@@ -1428,7 +1428,7 @@
 			</style>
 			<div>
 				<p style="text-align: center; font-size: 2em; border:#000; border-width: 3px; border-style:double;">
-					<a href="#main"><em>trykk her!</em> </a>
+					<a href="#main"><em>[trykk her!]</em> </a>
 				</p>
 
 				<article class="verbose foyer slide" id="main">
