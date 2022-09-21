@@ -34,7 +34,7 @@
       xmlns:xlink="http://www.w3.org/1999/xlink">
       ... SVG content ...
       <switch>
-        <foreignObject ...>
+        <foreignObject>
           <p>
             ... XHTML content ...
             <math xmlns="http://www.w3.org/1998/Math/MathML">
