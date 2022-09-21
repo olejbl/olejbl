@@ -10,7 +10,7 @@
           content: var(--address);
         }
       </style>
-      <link rel="stylesheet" href="https://latest-with-plugins.datasette.io/fixtures/roadside_attractions.css">
+      <link rel="stylesheet" href="https://latest-with-plugins.datasette.io/fixtures/roadside_attractions.css"></link>
       <p class="attraction-name">Attraction name: </p>
       <p class="attraction-address">Address: </p>
     </div>
