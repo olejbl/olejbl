@@ -16,7 +16,6 @@
       <body xmlns="http://www.w3.org/1999/xhtml">
         <p>Here is a paragraph that requires word wrap</p>
       </body>
-    </switch>
     </foreignObject>
     <!-- Else, process the following alternate SVG.
          Note that there are no testing attributes on the 'text' element.
