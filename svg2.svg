@@ -25,5 +25,25 @@
       <tspan x="10" y="10">Here is a paragraph that</tspan>
       <tspan x="10" y="20">requires word wrap.</tspan>
     </text>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      ... MathML content ...
+    </math>
+    ... XHTML content ...
+    <svg:svg version="1.1"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink">
+      ... SVG content ...
+      <svg:switch>
+        <svg:foreignObject ...>
+          <p>
+            ... XHTML content ...
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              ... MathML content ...
+            </math>
+            ... XHTML content ...
+          </p>
+        </svg:foreignObject>
+      </svg:switch>
+    </svg:svg>
   </switch>
 </svg>
