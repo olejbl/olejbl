@@ -1427,7 +1427,7 @@
 				}
 			</style>
 			<div>
-				<p style="text-align: center; font-size: 2em;">
+				<p style="text-align: center; font-size: 2em; border:#000; border-width: 1px;">
 					<a href="#main"><em>trykk her!</em> </a>
 				</p>
 
